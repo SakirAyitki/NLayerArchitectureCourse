@@ -1,5 +1,7 @@
 using System.Reflection;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using Nlayer.Core.DTOs;
 using Nlayer.Core.Repositories;
 using Nlayer.Core.Services;
 using Nlayer.Core.UnitOfWork;
@@ -8,17 +10,17 @@ using NLayer.Repository.Repositories;
 using NLayer.Repository.UnitOfWorks;
 using NLayer.Service.Mapping;
 using NLayer.Service.Services;
+using NLayer.Service.Validation;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ⭐ MVC Controller'ları ekle
 builder.Services.AddControllers();
 
-// ⭐ Swagger
+builder.Services.AddControllers().AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+builder.Services.AddControllers().AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<CategoryDtoValidator>());
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// ⭐ DI registrations
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
@@ -27,10 +29,8 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 
-// ⭐ AutoMapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
-// ⭐ DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(
@@ -45,7 +45,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 var app = builder.Build();
 
-// ⭐ Swagger middleware
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -54,7 +53,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// ⭐ Controller endpoint'lerini map et
 app.MapControllers();
 
 app.Run();
