@@ -1,0 +1,17 @@
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/bin/Debug/net10.0/NLayer.Repository.deps.json
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/bin/Debug/net10.0/NLayer.Repository.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/bin/Debug/net10.0/NLayer.Repository.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/bin/Debug/net10.0/Nlayer.Core.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/bin/Debug/net10.0/Nlayer.Core.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.csproj.AssemblyReference.cache
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.AssemblyInfoInputs.cache
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.AssemblyInfo.cs
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.csproj.CoreCompileInputs.cache
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.R.11436BBB.Up2Date
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/refint/NLayer.Repository.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/ref/NLayer.Repository.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/bin/Debug/net10.0/NLayer.Repository.runtimeconfig.json
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Repository/obj/Debug/net10.0/NLayer.Repository.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/NLayer.Service.deps.json
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/NLayer.Service.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/NLayer.Service.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/Nlayer.Core.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/NLayer.Repository.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/NLayer.Repository.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/bin/Debug/net10.0/Nlayer.Core.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.csproj.AssemblyReference.cache
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.AssemblyInfoInputs.cache
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.AssemblyInfo.cs
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.csproj.CoreCompileInputs.cache
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.S.636D47A2.Up2Date
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/refint/NLayer.Service.dll
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/NLayer.Service.pdb
+/Users/sakir/RiderProjects/NlayerUdemyApp/NLayer.Service/obj/Debug/net10.0/ref/NLayer.Service.dll
