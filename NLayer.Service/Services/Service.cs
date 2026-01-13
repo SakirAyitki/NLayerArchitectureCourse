@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Nlayer.Core.Repositories;
 using Nlayer.Core.Services;
 using Nlayer.Core.UnitOfWork;
+using NLayer.Service.Exceptions;
 
 namespace NLayer.Service.Services;
 
@@ -19,7 +20,12 @@ public class Service<T> : IService<T> where T : class
     
     public async Task<T> GetByIdAsync(int id)
     {
-        return await _repository.GetByIdAsync(id);
+        var hasEntity = await _repository.GetByIdAsync(id);
+        if (hasEntity == null)
+        {
+            throw new NotFoundException($"{typeof(T).Name}({id}) not found");
+        }
+        return hasEntity;
     }
 
     public async Task<T> AddAsync(T entity)
